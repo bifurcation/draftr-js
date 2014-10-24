@@ -4,6 +4,8 @@
 <head>
 <title>draftr</title>
 <script src="./jquery-1.9.1.js"></script>
+<script src="./yaml.js"></script>
+<script src="./draftr.js"></script>
 <script>
 
 var state = {
@@ -28,6 +30,8 @@ $(document).ready(function() {
 
     // Attach the compile action to the button
     $("#go").click(function() {
+        OUT.value = toTXT(fromMD(IN.value));
+        /*
         OUT.value = "Loading...";
         $.ajax({
             url: "./compile.py",
@@ -50,6 +54,7 @@ $(document).ready(function() {
                 OUT.value += "\n(Sorry this isn't very helpful.  TODO: better error messages";
             }
         });
+        */
     })
 
     $("a.download").click(function() {
