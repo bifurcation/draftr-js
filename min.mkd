@@ -10,7 +10,7 @@ author:
  -
     ins: Y. Name
     name: Your Name
-    organization: Your Organization, Inc.
+    org: Your Organization, Inc.
     email: you@example.com
 
 normative:

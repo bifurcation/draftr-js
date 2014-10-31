@@ -30,7 +30,8 @@ $(document).ready(function() {
 
     // Attach the compile action to the button
     $("#go").click(function() {
-        OUT.value = toTXT(fromMD(IN.value));
+        window.ast = fromMD(IN.value);
+        OUT.value = toTXT(window.ast);
         /*
         OUT.value = "Loading...";
         $.ajax({
