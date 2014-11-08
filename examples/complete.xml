@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <?xml-stylesheet type="text/xsl" href="rfc2629.xslt" ?>
+
+<!DOCTYPE rfc SYSTEM "rfc2629.dtd" [
+<!ENTITY RFC2119 SYSTEM "http://xml2rfc.tools.ietf.org/public/rfc/bibxml/reference.RFC.2119.xml">
+<!ENTITY I-D.ietf-core-coap SYSTEM "http://xml2rfc.tools.ietf.org/public/rfc/bibxml3/reference.I-D.ietf-core-coap.xml">
+]>
+
+<rfc ipr="trust200902" docName="draft-ietf-core-block-05" category="std">
+
+<?rfc toc="yes"?>
+<?rfc sortrefs="yes"?>
+<?rfc symrefs="yes"?>
+
+  <front>
+    <title>Blockwise transfers in CoAP</title>
+
+    <author initials="J." surname="Author" fullname="John Q. Author">
+      <organization abbrev="Yoyodyne">Yoyodyne, Inc.</organization>
+      <address>
+        <postal>
+          <street>123 Main St.</street> <street>56th Floor</street>
+          <city>Anywhere</city>
+          <code>12345</code>
+          <country>USA</country>
+        </postal>
+        <phone>+1-999-555-1212</phone>
+        <facsimile>+1-999-555-1212</facsimile>
+        <email>jauthor@example.invalid</email>
+        <uri>https://example.invalid/jauthor</uri>
+      </address>
+    </author>
+
+    <date year="2012" month="January" day="13"/>
+
+    <area>General</area>
+    <workgroup>RFCFORMAT</workgroup>
+    <keyword>Internet-Draft</keyword>
+
+    <abstract>
+
+
+<t>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh mi, mollis varius imperdiet id, venenatis ut nisi. Phasellus mauris urna, ultrices at massa id, faucibus malesuada nisi.</t>
+
+<t>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh mi, mollis varius imperdiet id, venenatis ut nisi. Phasellus mauris urna, ultrices at massa id, faucibus malesuada nisi.</t>
+
+
+
+    </abstract>
+
+
+  </front>
+
+  <middle>
+
+
+<section anchor="sections-and-text" title="Sections and Text">
+
+<t>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh mi, mollis varius imperdiet id, venenatis ut nisi. Phasellus mauris urna, ultrices at massa id, faucibus malesuada nisi.</t>
+
+<section anchor="lorem-ipsum" title="Lorem ipsum">
+
+<t>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh mi, mollis varius imperdiet id, venenatis ut nisi. Phasellus mauris urna, ultrices at massa id, faucibus malesuada nisi.</t>
+
+<section anchor="lorem-ipsum-1" title="Lorem ipsum">
+
+<t>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh mi, mollis varius imperdiet id, venenatis ut nisi. Phasellus mauris urna, ultrices at massa id, faucibus malesuada nisi.</t>
+
+</section>
+</section>
+</section>
+<section anchor="lists" title="Lists">
+
+<t><list style="symbols">
+  <t>Item</t>
+  <t>Item
+  <list style="symbols">
+      <t>Item</t>
+      <t>Item</t>
+    </list></t>
+  <t>Item</t>
+</list></t>
+
+<t><list style="numbers">
+  <t>Item</t>
+  <t>Item</t>
+  <t>Item</t>
+  <t>Item</t>
+  <t>Item</t>
+</list></t>
+
+<t>A. Item
+A. Item
+  A. Item
+  A. Item
+A. Item</t>
+
+<t><list style="hanging">
+  <t hangText='Item:'>
+  Definition
+
+      <list style="symbols">
+        <t>Item</t>
+        <t>Item</t>
+      </list>
+  </t>
+  <t hangText='Item:'>
+  Definition</t>
+</list></t>
+
+</section>
+<section anchor="figures" title="Figures">
+
+<figure title="Figure 1" anchor="figure1"><artwork><![CDATA[
+       _,--._.-,           
+      /\_r-,\_ )           
+   .-.) _;='_/ (.;         
+    \ \'     \/S )         
+     L.'-. _.'|-'          
+    <_`-'\'_.'/            
+      `'-._( \             
+             \\       ___  
+              \\   .-'_. / 
+               \\ /.-'_.'  
+                \('--'	   
+                  \        
+]]></artwork></figure>
+
+</section>
+<section anchor="tables" title="Tables">
+
+<texttable title="Example Table" anchor="table1">
+      <ttcol align='left'>Left-aligned</ttcol>
+      <ttcol align='center'>Center-aligned</ttcol>
+      <ttcol align='right'>Right-aligned</ttcol>
+      <c>Lorem ipsum dolor sit amet</c>
+      <c>consectetur adipiscing elit.</c>
+      <c>Curabitur nibh mi</c>
+</texttable>
+
+</section>
+<section anchor="refstyle" title="References">
+
+<t>The IETF documents referred to here are <xref target="RFC2119"/> and <xref target="I-D.ietf-core-coap"/>.  We also refer to REST <xref target="REST"/>.  Figure <xref target="figure1"/> and Table <xref target="table1"/> are explicitly tagged, as is <xref target="refstyle"/>, but <xref target="sections-and-text"/> is implicit.  The web page at <eref target="http://ipv.sx/">ipv.sx</eref> is not part of this document.</t>
+
+</section>
+
+
+  </middle>
+
+  <back>
+
+    <references title='Normative References'>
+
+&RFC2119;
+&I-D.ietf-core-coap;
+
+
+    </references>
+
+    <references title='Informative References'>
+
+<reference anchor="REST" >
+  <front>
+    <title>Architectural Styles and the Design of Network-based Software Architectures</title>
+    <author initials="R." surname="Fielding" fullname="Roy Fielding">
+      <organization>University of California, Irvine</organization>
+    </author>
+    <date year="2000"/>
+  </front>
+</reference>
+
+
+    </references>
+
+
+<section anchor="lorem-ipsum-2" title="Lorem ipsum">
+
+<t>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh mi, mollis varius imperdiet id, venenatis ut nisi. Phasellus mauris urna, ultrices at massa id, faucibus malesuada nisi.</t>
+
+</section>
+
+
+  </back>
+</rfc>
+

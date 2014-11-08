@@ -1,0 +1,142 @@
+---
+title: Blockwise transfers in CoAP
+docname: draft-ietf-core-block-05
+date: 2012-01-13
+
+ipr: trust200902
+area: General
+wg: RFCFORMAT
+kw: Internet-Draft
+cat: std
+
+pi:
+  toc: yes
+  sortrefs:
+  symrefs: yes
+
+author:
+      -
+        ins: J. Author
+        name: John Q. Author
+        org: Yoyodyne, Inc.
+        abbrev: Yoyodyne
+        street:
+          - 123 Main St.
+          - 56th Floor
+        city: Anywhere
+        code: 12345
+        country: USA
+        phone: +1-999-555-1212
+        facsimile: +1-999-555-1212
+        email: jauthor@example.invalid
+        uri: https://example.invalid/jauthor
+
+normative:
+  RFC2119:
+  I-D.ietf-core-coap:
+
+informative:
+  REST:
+    title: Architectural Styles and the Design of Network-based Software Architectures
+    author:
+        ins: R. Fielding
+        name: Roy Fielding
+        org: University of California, Irvine
+    date: 2000
+
+--- note Lorem Ipsum
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh mi, mollis varius imperdiet id, venenatis ut nisi. Phasellus mauris urna, ultrices at massa id, faucibus malesuada nisi.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh mi, mollis varius imperdiet id, venenatis ut nisi. Phasellus mauris urna, ultrices at massa id, faucibus malesuada nisi.
+
+
+--- abstract
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh mi, mollis varius imperdiet id, venenatis ut nisi. Phasellus mauris urna, ultrices at massa id, faucibus malesuada nisi.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh mi, mollis varius imperdiet id, venenatis ut nisi. Phasellus mauris urna, ultrices at massa id, faucibus malesuada nisi.
+
+
+--- middle
+
+# Sections and Text
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh mi, mollis varius imperdiet id, venenatis ut nisi. Phasellus mauris urna, ultrices at massa id, faucibus malesuada nisi.
+
+## Lorem ipsum
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh mi, mollis varius imperdiet id, venenatis ut nisi. Phasellus mauris urna, ultrices at massa id, faucibus malesuada nisi.
+
+### Lorem ipsum
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh mi, mollis varius imperdiet id, venenatis ut nisi. Phasellus mauris urna, ultrices at massa id, faucibus malesuada nisi.
+
+
+# Lists
+
+* Item
+* Item
+  * Item
+  * Item
+* Item
+
+1. Item
+1. Item
+  1. Item
+  1. Item
+1. Item
+
+A. Item
+A. Item
+  A. Item
+  A. Item
+A. Item
+
+Item:
+: Definition
+
+  * Item
+  * Item
+
+Item:
+: Definition
+
+
+# Figures
+
+~~~~~~~~~~
+       _,--._.-,           
+      /\_r-,\_ )           
+   .-.) _;='_/ (.;         
+    \ \'     \/S )         
+     L.'-. _.'|-'          
+    <_`-'\'_.'/            
+      `'-._( \             
+             \\       ___  
+              \\   .-'_. / 
+               \\ /.-'_.'  
+                \('--'	   
+                  \        
+~~~~~~~~~~
+{: #figure1 title="Figure 1"}
+
+
+# Tables
+
+| Left-aligned | Center-aligned | Right-aligned|
+| :-- | :--:|----:|
+| Lorem ipsum dolor sit amet | consectetur adipiscing elit. | Curabitur nibh mi |
+{: #table1 title="Example Table"}
+
+# References {#refstyle}
+
+The IETF documents referred to here are {{RFC2119}} and {{I-D.ietf-core-coap}}.  We also refer to REST {{REST}}.  Figure {{figure1}} and Table {{table1}} are explicitly tagged, as is {{refstyle}}, but {{sections-and-text}} is implicit.  The web page at {{http://ipv.sx/} ipv.sx} is not part of this document.
+
+--- back
+
+# Lorem ipsum
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh mi, mollis varius imperdiet id, venenatis ut nisi. Phasellus mauris urna, ultrices at massa id, faucibus malesuada nisi.
+
+
