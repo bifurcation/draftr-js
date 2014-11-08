@@ -5,7 +5,7 @@ The tools for authoring IETF documents are terrible.  The [most modern "official
 In order to provide a modern, webby toolkit for making Internet-drafts, draftr.js is an effort to implement parsing and rendering of the various I-D formats in Javascript, so that it's easy to incorporate into web apps.
 
 
-# Quickstart
+## Quickstart
 
 ```
 > git clone
@@ -14,10 +14,13 @@ In order to provide a modern, webby toolkit for making Internet-drafts, draftr.j
 
 For convenience, a relatively current clone of this repo is [available on the web](http://ipv.sx/draftr-js/)
 
-# TODO
+## TODO
 
 * Support for more MD features
-  * References
+  * References (external and internal)
+  * Table of contents
+  * Figures
+  * Bullets
 * MD rendering
 * XML parsing
 * XML rendering
